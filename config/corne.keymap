@@ -40,7 +40,7 @@
   &kp EXCLAMATION  &kp AT_SIGN     &kp HASH              &kp DOLLAR        &kp PERCENT      &kp LCTRL         &kp AMPERSAND      &kp ASTERISK           &kp MINUS        &kp EQUAL
   &kp TILDE        &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET  &kp LESS_THAN    &kp GREATER_THAN  &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp BACKSPACE
   &kp GRAVE        &none           &kp SEMI              &kp COLON         &kp QUESTION     &kp BACKSLASH     &kp PIPE           &kp SLASH              &kp SQT          &kp DOUBLE_QUOTES
-                                   &kp TAB               &tog 0            &kp ESC          &kp SPACE         &tog 2             &kp RETURN
+                                   &kp TAB               &kp Z             &kp ESC          &kp SPACE         &tog 2             &kp RETURN
             >;
         };
 
