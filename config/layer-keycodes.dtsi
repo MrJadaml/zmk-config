@@ -1,0 +1,26 @@
+#include <dt-bindings/zmk/keys.h>
+#include <behaviors.dtsi>
+
+/ {
+    behaviors {
+        to_emit: to_layer_emit {
+            compatible = "zmk,behavior-macro";
+            label = "TO_EMIT";
+            #binding-cells = <1>;
+            bindings = <&macro_tap &kp BASE_LAYER_CODE &to 0>;
+        };
+
+        tog_emit: toggle_layer_emit {
+            compatible = "zmk,behavior-macro";
+            label = "TOG_EMIT";
+            #binding-cells = <1>;
+            bindings = <&macro_tap &kp BASE_LAYER_CODE &tog 0>;
+        };
+    };
+};
+
+// Custom keycode definitions
+#define BASE_LAYER_CODE F13
+#define LAYER_1_CODE    F14
+#define LAYER_2_CODE    F15
+#define LAYER_3_CODE    F16
