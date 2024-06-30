@@ -52,28 +52,28 @@
         tog_emit_lower: tog_emit {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp F14 &tog 1>;
+            bindings = <&kp SPACE &kp NUMBER_1 &tog_emit_lower>;
             label = "TOG_EMIT";
         };
 
         tog_emit_raise: tog_emit_raise {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp F15 &tog 2>;
+            bindings = <&kp SPACE &kp NUMBER_2 &tog_emit_raise>;
             label = "TOG_EMIT_RAISE";
         };
 
         tog_emit_3: tog_emit_3 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp F16 &tog 3>;
+            bindings = <&kp SPACE &kp NUMBER_3 &tog_emit_3>;
             label = "TOG_EMIT_3";
         };
 
         to_default: to_default {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp F13 &to 0>;
+            bindings = <&kp SPACE &kp NUMBER_0 &to_default>;
             label = "TO_DEFAULT";
         };
     };
